@@ -1,0 +1,25 @@
+
+
+    Directory: C:\Users\Administrator\Documents\Virtual Machines\vm
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         7/20/2026   6:16 AM                564dd8ae-088d-b26d-4d32-707c91e89433.vmem.lck
+d-----         7/20/2026   6:16 AM                vm.vmdk.lck
+d-----         7/20/2026   6:16 AM                vm.vmx.lck
+-a----         7/20/2026   6:16 AM    17179869184 564dd8ae-088d-b26d-4d32-707c91e89433.vmem
+-a----         7/20/2026   6:15 AM     4261412864 vm-f001.vmdk
+-a----         7/20/2026   6:15 AM     4261412864 vm-f002.vmdk
+-a----         7/20/2026   6:15 AM     4261412864 vm-f003.vmdk
+-a----         7/20/2026   6:15 AM     4261412864 vm-f004.vmdk
+-a----         7/20/2026   6:16 AM     4261412864 vm-f005.vmdk
+-a----         7/20/2026   6:16 AM      167772160 vm-f006.vmdk
+-a----         7/20/2026   6:16 AM           8684 vm.nvram
+-a----         7/20/2026   6:16 AM           4096 vm.scoreboard
+-a----         7/20/2026   6:22 AM            682 vm.vmdk
+-a----         7/20/2026   6:16 AM              0 vm.vmsd
+-a----         7/20/2026   6:23 AM           2900 vm.vmx
+-a----         7/20/2026   6:16 AM            257 vm.vmxf
+-a----         7/20/2026   6:16 AM              0 vmware.log
+

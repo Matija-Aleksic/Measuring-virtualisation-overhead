@@ -1,0 +1,1 @@
+dd: failed to open '/home/alex/full_io_workload.bin': Permission denied

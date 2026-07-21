@@ -1,0 +1,56 @@
+# =============================================================================
+# bench.conf  —  per-platform configuration for benchmark.sh (v5)
+# =============================================================================
+# Copy this file to `bench.conf` on each target (bare metal / container / guest)
+# and edit the identity fields. benchmark.sh sources this file if present; every
+# value can also be overridden by an environment variable of the same name, and
+# the identity fields can be passed as --flags. Only these three IDENTITY fields
+# MUST be set correctly per platform — everything else has sane defaults and is
+# auto-detected where possible.
+#
+# The whole point of this file is that ONE benchmark.sh runs everywhere and only
+# this config differs — no more per-platform script forks.
+# =============================================================================
+
+# ---- IDENTITY (set these per platform) --------------------------------------
+# PLATFORM       : short label for this environment, e.g.
+#                  Bare_Metal / Docker / LXC / QEMU-KVM / VMware / VirtualBox /
+#                  Hyper-V / WSL2 / Docker-WSL2
+# HOST_OS        : the PHYSICAL host OS, e.g. "Ubuntu 24.04 LTS" or "Windows 11".
+#                  For a Linux guest running on a Windows host, this is Windows.
+# ISOLATION_TYPE : None | Container | VM
+PLATFORM="Bare_Metal"
+HOST_OS="Ubuntu 24.04 LTS"
+ISOLATION_TYPE="None"
+
+# ---- WORKLOAD SIZING (keep IDENTICAL across every platform you compare) ------
+CPU_CORES="0-3"        # taskset core list — pin to the same physical cores everywhere
+CPU_THREADS=4          # thread/parallelism count for multi-threaded tests
+MEM_LIMIT="16G"        # sysbench memory total working size
+ITERATIONS=10          # full-suite repeats (plan.txt §8.1 wants >=10; floor 5)
+
+# ---- NETWORK ----------------------------------------------------------------
+# REMOTE_IP must be a machine on the LAN running `iperf3 -s` (always-on).
+# If it is unreachable the remote network tests are recorded as FAILED (not
+# silently skipped, and never fabricated as a clean 0) — but they produce no data,
+# so make sure this peer is actually up before a collection session.
+REMOTE_IP="192.168.100.1"
+IPERF_PORT=5201
+
+# ---- STORAGE ----------------------------------------------------------------
+# IO_DIR is where fio/dd/ioping create their test file. This decides WHICH
+# storage stack you are actually measuring:
+#   - a container's default writable layer (overlay2) vs a bind-mount,
+#   - a VM's virtual disk,
+#   - bare metal's real filesystem.
+# The filesystem type of this dir is auto-detected into meta.env (FILESYSTEM).
+IO_DIR="${HOME}"
+
+# Optional manual annotations that can't be auto-detected — leave blank if unsure.
+# These are recorded verbatim into meta.env for the compiler / write-up.
+DISK_TYPE=""            # e.g. virtio-blk / virtio-scsi / SATA-AHCI / NVMe / pvscsi
+PROVISIONING_TYPE=""    # e.g. raw / qcow2-thin / qcow2-thick / vmdk-thin / overlay2
+
+# ---- OPTIONAL: kernel-compile source ----------------------------------------
+# Pinned so every platform compiles the exact same tree. Change only if you must.
+KERNEL_VERSION="6.8"

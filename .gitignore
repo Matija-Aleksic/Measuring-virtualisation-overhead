@@ -1,0 +1,20 @@
+# Installers / large binaries
+*.exe
+*.bundle
+
+# Python scripts and bytecode
+*.py
+__pycache__/
+*.pyc
+
+# Existing markdown docs (kept out on purpose; repo has its own README.md)
+AGENTS.md
+TEST_METHODOLOGY.md
+DATA_VALIDATION_REPORT.md
+**/*.md
+!/README.md
+
+*.odt
+!/Zavrsni.odt
+# Research plan (not published)
+plan.txt

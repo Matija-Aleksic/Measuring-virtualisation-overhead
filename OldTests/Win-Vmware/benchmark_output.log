@@ -1,0 +1,73 @@
+nohup: ignoring input
+
+[1m[0;36m-- Setup & Initialization --[0m
+[0;36m[13:29:58][0m Installing ALL dependencies (Non-Interactive)...
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+est version (0.19.02-1).
+build-essential is already the newest version (12.12).
+p7zip-full is already the newest version (16.02+transitional.1).
+fio is already the newest version (3.39-1).
+ioping is already the newest version (1.3-1).
+mbw is already the newest version (1.2.2-1.2).
+numactl is already the newest version (2.0.19-1).
+bc is already the newest version (1.07.1-4).
+python3 is already the newest version (3.13.5-1).
+wget is already the newest version (1.25.0-2).
+tar is already the newest version (1.35+dfsg-3.1).
+libncurses-dev is already the newest version (6.5+20250216-2).
+flex is already the newest version (2.6.4-8.2+b4).
+bison is already the newest version (2:3.8.2+dfsg-1+b2).
+libelf-dev is already the newest version (0.192-4).
+libssl-dev is already the newest version (3.5.6-1~deb13u2).
+time is already the newest version (1.9-0.2).
+iperf3 is already the newest version (3.18-2+deb13u2).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+[0;36m[13:30:03][0m Capturing baseline system state...
+
+[1m[0;36m-- Network Benchmarks --[0m
+[0;36m[13:30:03][0m iperf3: Localhost Loopback...
+[0;36m[13:30:15][0m iperf3: Remote Server (192.168.100.36)...
+
+[1m[0;36m-- CPU & Application Benchmarks --[0m
+[0;36m[13:30:15][0m sysbench: CPU Single-thread (120s)...
+[0;36m[13:32:15][0m sysbench: CPU Multi-thread (4 threads, 120s)...
+[0;36m[13:34:15][0m stress-ng: CPU metrics (120s)...
+[0;36m[13:36:15][0m 7-Zip: Internal Benchmark...
+[0;36m[13:36:35][0m Python: Mandelbrot Fractal (2000x2000)...
+
+[1m[0;36m-- Disk I/O Benchmarks --[0m
+[0;36m[13:38:32][0m fio: seq_rw...
+[0;36m[13:40:37][0m fio: rand_4k...
+[0;36m[13:42:38][0m fio: mixed_70_30...
+[0;36m[13:44:39][0m dd: Baseline Write/Read...
+
+[1m[0;36m-- Memory Benchmarks --[0m
+[0;36m[13:44:44][0m sysbench: Memory Write (16G)...
+[0;36m[13:44:46][0m sysbench: Memory Read (16G)...
+[0;36m[13:44:46][0m mbw: Memory Bandwidth (256MB)...
+
+[1m[0;36m-- Heavy Workload: Linux Kernel Build --[0m
+[0;36m[13:44:47][0m Fetching Kernel 6.8 source...
+[0;36m[13:45:02][0m Compiling Kernel (4 threads)...
+
+[1m[0;36m-- Benchmark Complete --[0m
+[0;36m[13:52:14][0m Total files collected: 21
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required

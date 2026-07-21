@@ -1,0 +1,29 @@
+
+7-Zip (a) 25.01 (x64) : Copyright (c) 1999-2025 Igor Pavlov : 2025-08-03
+ 64-bit locale=en_US.UTF-8 Threads:128 OPEN_MAX:1024, ASM
+
+ mt=4
+Compiler:  ver:14.2.0 GCC 14.2.0 : SSE2
+Linux : 6.12.95+deb13-amd64 : #1 SMP PREEMPT_DYNAMIC Debian 6.12.95-1 (2026-07-04) : x86_64 : VMwareVMware :  : 0.0.0.0.0.0
+PageSize:4KB THP:always hwcap:2 hwcap2:2
+Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz
+(306C3)
+
+1T CPU Freq (MHz):  3761  3756  3918  3921  3947  3883  3905
+2T CPU Freq (MHz): 196% 3867   197% 3872  
+4T CPU Freq (MHz): 397% 3732   396% 3716  
+
+RAM size:   15961 MB,  # CPU hardware threads:   4 / 128 : 0000000000000000000000000000000F
+RAM usage:    889 MB,  # Benchmark threads:      4
+
+                       Compressing  |                  Decompressing
+Dict     Speed Usage    R/U Rating  |      Speed Usage    R/U Rating
+         KiB/s     %   MIPS   MIPS  |      KiB/s     %   MIPS   MIPS
+
+22:      22887   351   6340  22265  |     290889   396   6263  24817
+23:      22438   370   6185  22862  |     284746   394   6257  24639
+24:      20378   355   6173  21911  |     278309   395   6190  24424
+25:      20270   367   6306  23144  |     270503   391   6152  24075
+----------------------------------  | ------------------------------
+Avr:     21493   361   6251  22546  |     281112   394   6216  24488
+Tot:             377   6233  23517

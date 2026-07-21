@@ -1,0 +1,21 @@
+
+7-Zip (a) [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=C,Utf16=off,HugeFiles=on,64 bits,8 CPUs Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz (306C3),ASM,AES-NI)
+
+Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz (306C3)
+CPU Freq: - - - - - - - - -
+
+RAM size:   32004 MB,  # CPU hardware threads:   8
+RAM usage:    882 MB,  # Benchmark threads:      4
+
+                       Compressing  |                  Decompressing
+Dict     Speed Usage    R/U Rating  |      Speed Usage    R/U Rating
+         KiB/s     %   MIPS   MIPS  |      KiB/s     %   MIPS   MIPS
+
+22:      16914   344   4786  16455  |     186112   399   3980  15878
+23:      17048   362   4793  17370  |     183853   400   3979  15908
+24:      17244   373   4977  18541  |     180387   399   3964  15835
+25:      17196   377   5202  19635  |     175871   399   3920  15652
+----------------------------------  | ------------------------------
+Avr:             364   4940  18000  |              399   3961  15818
+Tot:             382   4450  16909

@@ -1,0 +1,35 @@
+4 KiB <<< /root (ext4 /dev/sdd 1006.9 GiB): request=1 time=275.3 us (warmup)
+4 KiB <<< /root (ext4 /dev/sdd 1006.9 GiB): request=2 time=1.60 ms
+4 KiB <<< /root (ext4 /dev/sdd 1006.9 GiB): request=3 time=1.69 ms
+4 KiB <<< /root (ext4 /dev/sdd 1006.9 GiB): request=4 time=1.70 ms
+4 KiB <<< /root (ext4 /dev/sdd 1006.9 GiB): request=5 time=1.70 ms
+4 KiB <<< /root (ext4 /dev/sdd 1006.9 GiB): request=6 time=1.67 ms
+4 KiB <<< /root (ext4 /dev/sdd 1006.9 GiB): request=7 time=1.71 ms
+4 KiB <<< /root (ext4 /dev/sdd 1006.9 GiB): request=8 time=1.80 ms
+4 KiB <<< /root (ext4 /dev/sdd 1006.9 GiB): request=9 time=1.70 ms
+4 KiB <<< /root (ext4 /dev/sdd 1006.9 GiB): request=10 time=1.44 ms
+4 KiB <<< /root (ext4 /dev/sdd 1006.9 GiB): request=11 time=1.75 ms
+4 KiB <<< /root (ext4 /dev/sdd 1006.9 GiB): request=12 time=2.63 ms
+4 KiB <<< /root (ext4 /dev/sdd 1006.9 GiB): request=13 time=876.3 us
+4 KiB <<< /root (ext4 /dev/sdd 1006.9 GiB): request=14 time=1.75 ms
+4 KiB <<< /root (ext4 /dev/sdd 1006.9 GiB): request=15 time=1.69 ms
+4 KiB <<< /root (ext4 /dev/sdd 1006.9 GiB): request=16 time=1.16 ms
+4 KiB <<< /root (ext4 /dev/sdd 1006.9 GiB): request=17 time=1.68 ms
+4 KiB <<< /root (ext4 /dev/sdd 1006.9 GiB): request=18 time=1.69 ms
+4 KiB <<< /root (ext4 /dev/sdd 1006.9 GiB): request=19 time=1.69 ms
+4 KiB <<< /root (ext4 /dev/sdd 1006.9 GiB): request=20 time=1.60 ms
+4 KiB <<< /root (ext4 /dev/sdd 1006.9 GiB): request=21 time=1.74 ms
+4 KiB <<< /root (ext4 /dev/sdd 1006.9 GiB): request=22 time=1.14 ms
+4 KiB <<< /root (ext4 /dev/sdd 1006.9 GiB): request=23 time=1.88 ms
+4 KiB <<< /root (ext4 /dev/sdd 1006.9 GiB): request=24 time=1.83 ms
+4 KiB <<< /root (ext4 /dev/sdd 1006.9 GiB): request=25 time=1.70 ms
+4 KiB <<< /root (ext4 /dev/sdd 1006.9 GiB): request=26 time=1.81 ms
+4 KiB <<< /root (ext4 /dev/sdd 1006.9 GiB): request=27 time=1.68 ms
+4 KiB <<< /root (ext4 /dev/sdd 1006.9 GiB): request=28 time=1.90 ms
+4 KiB <<< /root (ext4 /dev/sdd 1006.9 GiB): request=29 time=1.77 ms
+4 KiB <<< /root (ext4 /dev/sdd 1006.9 GiB): request=30 time=887.3 us
+
+--- /root (ext4 /dev/sdd 1006.9 GiB) ioping statistics ---
+29 requests completed in 47.8 ms, 116 KiB read, 606 iops, 2.37 MiB/s
+generated 30 requests in 29.0 s, 120 KiB, 1 iops, 4.14 KiB/s
+min/avg/max/mdev = 876.3 us / 1.65 ms / 2.63 ms / 319.0 us

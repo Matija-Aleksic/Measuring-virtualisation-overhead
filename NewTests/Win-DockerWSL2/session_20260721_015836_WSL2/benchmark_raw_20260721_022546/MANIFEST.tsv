@@ -1,0 +1,3 @@
+test	status	seconds	outfile
+iperf3_localhost	ok	10.03	iperf3_localhost.json
+iperf3_remote_tcp	ok	10.05	iperf3_remote.json

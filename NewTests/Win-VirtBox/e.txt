@@ -1,0 +1,1 @@
+scp -r session_* alex@192.168.100.50:/mnt/storage/zavrsni/NewTests/Win-VirtBox/

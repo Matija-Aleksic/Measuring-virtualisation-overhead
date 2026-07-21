@@ -1,0 +1,4 @@
+test	status	seconds	outfile
+iperf3_localhost	fail	6.14	iperf3_localhost.json
+iperf3_remote_tcp	fail	1.86	iperf3_remote.json
+iperf3_remote_udp	fail	0.18	iperf3_remote_udp.json

@@ -1,0 +1,35 @@
+4 KiB <<< /root (ext4 /dev/sda1 18.5 GiB): request=1 time=118.1 us (warmup)
+4 KiB <<< /root (ext4 /dev/sda1 18.5 GiB): request=2 time=349.3 us
+4 KiB <<< /root (ext4 /dev/sda1 18.5 GiB): request=3 time=1.09 ms
+4 KiB <<< /root (ext4 /dev/sda1 18.5 GiB): request=4 time=1.01 ms
+4 KiB <<< /root (ext4 /dev/sda1 18.5 GiB): request=5 time=1.03 ms
+4 KiB <<< /root (ext4 /dev/sda1 18.5 GiB): request=6 time=999.2 us
+4 KiB <<< /root (ext4 /dev/sda1 18.5 GiB): request=7 time=1.03 ms
+4 KiB <<< /root (ext4 /dev/sda1 18.5 GiB): request=8 time=1.09 ms
+4 KiB <<< /root (ext4 /dev/sda1 18.5 GiB): request=9 time=1.07 ms
+4 KiB <<< /root (ext4 /dev/sda1 18.5 GiB): request=10 time=995.2 us
+4 KiB <<< /root (ext4 /dev/sda1 18.5 GiB): request=11 time=1.06 ms
+4 KiB <<< /root (ext4 /dev/sda1 18.5 GiB): request=12 time=1.05 ms
+4 KiB <<< /root (ext4 /dev/sda1 18.5 GiB): request=13 time=1.10 ms
+4 KiB <<< /root (ext4 /dev/sda1 18.5 GiB): request=14 time=1.13 ms
+4 KiB <<< /root (ext4 /dev/sda1 18.5 GiB): request=15 time=272.5 us (fast)
+4 KiB <<< /root (ext4 /dev/sda1 18.5 GiB): request=16 time=1.09 ms
+4 KiB <<< /root (ext4 /dev/sda1 18.5 GiB): request=17 time=1.03 ms
+4 KiB <<< /root (ext4 /dev/sda1 18.5 GiB): request=18 time=1.02 ms
+4 KiB <<< /root (ext4 /dev/sda1 18.5 GiB): request=19 time=1.03 ms
+4 KiB <<< /root (ext4 /dev/sda1 18.5 GiB): request=20 time=1.04 ms
+4 KiB <<< /root (ext4 /dev/sda1 18.5 GiB): request=21 time=1.04 ms
+4 KiB <<< /root (ext4 /dev/sda1 18.5 GiB): request=22 time=1.05 ms
+4 KiB <<< /root (ext4 /dev/sda1 18.5 GiB): request=23 time=1.10 ms
+4 KiB <<< /root (ext4 /dev/sda1 18.5 GiB): request=24 time=1.17 ms
+4 KiB <<< /root (ext4 /dev/sda1 18.5 GiB): request=25 time=1.16 ms
+4 KiB <<< /root (ext4 /dev/sda1 18.5 GiB): request=26 time=1.09 ms
+4 KiB <<< /root (ext4 /dev/sda1 18.5 GiB): request=27 time=1.12 ms
+4 KiB <<< /root (ext4 /dev/sda1 18.5 GiB): request=28 time=1.07 ms
+4 KiB <<< /root (ext4 /dev/sda1 18.5 GiB): request=29 time=1.07 ms
+4 KiB <<< /root (ext4 /dev/sda1 18.5 GiB): request=30 time=1.04 ms
+
+--- /root (ext4 /dev/sda1 18.5 GiB) ioping statistics ---
+29 requests completed in 29.4 ms, 116 KiB read, 986 iops, 3.85 MiB/s
+generated 30 requests in 29.0 s, 120 KiB, 1 iops, 4.14 KiB/s
+min/avg/max/mdev = 272.5 us / 1.01 ms / 1.17 ms / 196.3 us

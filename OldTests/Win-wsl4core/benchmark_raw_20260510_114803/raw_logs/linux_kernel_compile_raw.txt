@@ -1,0 +1,37 @@
+  UPD     include/generated/compile.h
+mkdir -p /mnt/c/Users/Administrator/Documents/kernel_build/tools/objtool && make O=/mnt/c/Users/Administrator/Documents/kernel_build subdir=tools/objtool --no-print-directory -C objtool 
+  INSTALL libsubcmd_headers
+  CALL    scripts/checksyscalls.sh
+  CC      init/version.o
+  AR      init/built-in.a
+make[4]: *** No rule to make target 'net/netfilter/xt_TCPMSS.o', needed by 'net/netfilter/built-in.a'.  Stop.
+make[3]: *** [scripts/Makefile.build:481: net/netfilter] Error 2
+make[3]: *** Waiting for unfinished jobs....
+make[2]: *** [scripts/Makefile.build:481: net] Error 2
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [/mnt/c/Users/Administrator/Documents/kernel_build/Makefile:1921: .] Error 2
+make: *** [Makefile:240: __sub-make] Error 2
+Command exited with non-zero status 2
+	Command being timed: "make -j4"
+	User time (seconds): 27.93
+	System time (seconds): 137.11
+	Percent of CPU this job got: 49%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 5:35.90
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 56576
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 78
+	Minor (reclaiming a frame) page faults: 371676
+	Voluntary context switches: 9007249
+	Involuntary context switches: 45197
+	Swaps: 0
+	File system inputs: 8392
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 2

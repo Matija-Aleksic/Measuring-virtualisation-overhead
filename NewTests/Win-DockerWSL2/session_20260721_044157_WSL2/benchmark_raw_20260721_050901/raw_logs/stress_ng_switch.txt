@@ -1,0 +1,10 @@
+stress-ng: info:  [31146] setting to a 2 mins run per stressor
+stress-ng: info:  [31146] dispatching hogs: 4 switch
+stress-ng: metrc: [31146] stressor       bogo ops real time  usr time  sys time   bogo ops/s     bogo ops/s
+stress-ng: metrc: [31146]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: metrc: [31146] switch         81024067    120.00     79.09    400.88    675198.86      168810.20
+stress-ng: info:  [31146] skipped: 0
+stress-ng: info:  [31146] passed: 4: switch (4)
+stress-ng: info:  [31146] failed: 0
+stress-ng: info:  [31146] metrics untrustworthy: 0
+stress-ng: info:  [31146] successful run completed in 2 mins

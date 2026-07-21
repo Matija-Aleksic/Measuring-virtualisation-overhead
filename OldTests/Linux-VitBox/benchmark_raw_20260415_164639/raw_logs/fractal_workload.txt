@@ -1,0 +1,1 @@
+Fractal_Time: 115.0381s

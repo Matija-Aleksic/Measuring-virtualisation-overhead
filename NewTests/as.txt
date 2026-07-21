@@ -1,0 +1,7 @@
+Invoke-WebRequest http://192.168.100.177:8123/benchmark.sh -OutFile benchmark.sh
+docker cp benchmark.sh debian-bench:/root/benchmark.sh
+docker exec -it debian-bench bash
+
+chmod +x /root/benchmark.sh
+cd /root
+./benchmark.sh --quick

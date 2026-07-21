@@ -1,0 +1,36 @@
+Long uses 8 bytes. Allocating 2*33554432 elements = 536870912 bytes of memory.
+Using 262144 bytes as blocks for memcpy block copy test.
+Getting down to business... Doing 10 runs per test.
+0	Method: MEMCPY	Elapsed: 0.04147	MiB: 256.00000	Copy: 6173.733 MiB/s
+1	Method: MEMCPY	Elapsed: 0.04123	MiB: 256.00000	Copy: 6208.619 MiB/s
+2	Method: MEMCPY	Elapsed: 0.04135	MiB: 256.00000	Copy: 6191.651 MiB/s
+3	Method: MEMCPY	Elapsed: 0.04127	MiB: 256.00000	Copy: 6202.903 MiB/s
+4	Method: MEMCPY	Elapsed: 0.04124	MiB: 256.00000	Copy: 6207.867 MiB/s
+5	Method: MEMCPY	Elapsed: 0.04131	MiB: 256.00000	Copy: 6197.497 MiB/s
+6	Method: MEMCPY	Elapsed: 0.04130	MiB: 256.00000	Copy: 6199.148 MiB/s
+7	Method: MEMCPY	Elapsed: 0.04128	MiB: 256.00000	Copy: 6201.550 MiB/s
+8	Method: MEMCPY	Elapsed: 0.04138	MiB: 256.00000	Copy: 6187.311 MiB/s
+9	Method: MEMCPY	Elapsed: 0.04135	MiB: 256.00000	Copy: 6191.651 MiB/s
+AVG	Method: MEMCPY	Elapsed: 0.04132	MiB: 256.00000	Copy: 6196.177 MiB/s
+0	Method: DUMB	Elapsed: 0.02541	MiB: 256.00000	Copy: 10073.188 MiB/s
+1	Method: DUMB	Elapsed: 0.02527	MiB: 256.00000	Copy: 10131.391 MiB/s
+2	Method: DUMB	Elapsed: 0.02530	MiB: 256.00000	Copy: 10118.177 MiB/s
+3	Method: DUMB	Elapsed: 0.02524	MiB: 256.00000	Copy: 10142.631 MiB/s
+4	Method: DUMB	Elapsed: 0.02753	MiB: 256.00000	Copy: 9297.596 MiB/s
+5	Method: DUMB	Elapsed: 0.02535	MiB: 256.00000	Copy: 10098.221 MiB/s
+6	Method: DUMB	Elapsed: 0.02543	MiB: 256.00000	Copy: 10067.642 MiB/s
+7	Method: DUMB	Elapsed: 0.02533	MiB: 256.00000	Copy: 10106.593 MiB/s
+8	Method: DUMB	Elapsed: 0.02530	MiB: 256.00000	Copy: 10118.977 MiB/s
+9	Method: DUMB	Elapsed: 0.02525	MiB: 256.00000	Copy: 10139.819 MiB/s
+AVG	Method: DUMB	Elapsed: 0.02554	MiB: 256.00000	Copy: 10023.022 MiB/s
+0	Method: MCBLOCK	Elapsed: 0.02845	MiB: 256.00000	Copy: 8998.875 MiB/s
+1	Method: MCBLOCK	Elapsed: 0.03047	MiB: 256.00000	Copy: 8400.604 MiB/s
+2	Method: MCBLOCK	Elapsed: 0.02916	MiB: 256.00000	Copy: 8779.752 MiB/s
+3	Method: MCBLOCK	Elapsed: 0.02982	MiB: 256.00000	Copy: 8584.267 MiB/s
+4	Method: MCBLOCK	Elapsed: 0.02860	MiB: 256.00000	Copy: 8951.988 MiB/s
+5	Method: MCBLOCK	Elapsed: 0.02857	MiB: 256.00000	Copy: 8959.194 MiB/s
+6	Method: MCBLOCK	Elapsed: 0.02861	MiB: 256.00000	Copy: 8946.669 MiB/s
+7	Method: MCBLOCK	Elapsed: 0.02860	MiB: 256.00000	Copy: 8951.362 MiB/s
+8	Method: MCBLOCK	Elapsed: 0.02854	MiB: 256.00000	Copy: 8969.553 MiB/s
+9	Method: MCBLOCK	Elapsed: 0.02853	MiB: 256.00000	Copy: 8973.011 MiB/s
+AVG	Method: MCBLOCK	Elapsed: 0.02894	MiB: 256.00000	Copy: 8847.203 MiB/s
