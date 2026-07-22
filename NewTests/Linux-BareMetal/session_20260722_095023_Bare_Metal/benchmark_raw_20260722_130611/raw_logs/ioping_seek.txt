@@ -1,0 +1,5 @@
+
+--- /home/alex (ext4 /dev/sda2 218.0 GiB) ioping statistics ---
+32.5 k requests completed in 2.98 s, 127.0 MiB read, 10.9 k iops, 42.6 MiB/s
+generated 32.5 k requests in 3.00 s, 127.0 MiB, 10.8 k iops, 42.3 MiB/s
+min/avg/max/mdev = 28.7 us / 91.7 us / 1.49 ms / 13.3 us
