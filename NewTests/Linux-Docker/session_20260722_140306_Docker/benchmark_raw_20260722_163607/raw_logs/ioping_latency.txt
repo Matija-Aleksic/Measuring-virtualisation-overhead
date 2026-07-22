@@ -1,0 +1,35 @@
+4 KiB <<< /root (overlay overlay 218.0 GiB): request=1 time=382.7 us (warmup)
+4 KiB <<< /root (overlay overlay 218.0 GiB): request=2 time=1.22 ms
+4 KiB <<< /root (overlay overlay 218.0 GiB): request=3 time=1.29 ms
+4 KiB <<< /root (overlay overlay 218.0 GiB): request=4 time=1.17 ms
+4 KiB <<< /root (overlay overlay 218.0 GiB): request=5 time=1.28 ms
+4 KiB <<< /root (overlay overlay 218.0 GiB): request=6 time=1.16 ms
+4 KiB <<< /root (overlay overlay 218.0 GiB): request=7 time=1.28 ms
+4 KiB <<< /root (overlay overlay 218.0 GiB): request=8 time=1.16 ms
+4 KiB <<< /root (overlay overlay 218.0 GiB): request=9 time=1.28 ms
+4 KiB <<< /root (overlay overlay 218.0 GiB): request=10 time=759.3 us
+4 KiB <<< /root (overlay overlay 218.0 GiB): request=11 time=1.29 ms
+4 KiB <<< /root (overlay overlay 218.0 GiB): request=12 time=1.28 ms
+4 KiB <<< /root (overlay overlay 218.0 GiB): request=13 time=1.28 ms
+4 KiB <<< /root (overlay overlay 218.0 GiB): request=14 time=1.31 ms
+4 KiB <<< /root (overlay overlay 218.0 GiB): request=15 time=666.9 us
+4 KiB <<< /root (overlay overlay 218.0 GiB): request=16 time=719.3 us
+4 KiB <<< /root (overlay overlay 218.0 GiB): request=17 time=1.28 ms
+4 KiB <<< /root (overlay overlay 218.0 GiB): request=18 time=1.31 ms
+4 KiB <<< /root (overlay overlay 218.0 GiB): request=19 time=1.28 ms
+4 KiB <<< /root (overlay overlay 218.0 GiB): request=20 time=1.27 ms
+4 KiB <<< /root (overlay overlay 218.0 GiB): request=21 time=1.28 ms
+4 KiB <<< /root (overlay overlay 218.0 GiB): request=22 time=1.28 ms
+4 KiB <<< /root (overlay overlay 218.0 GiB): request=23 time=1.29 ms
+4 KiB <<< /root (overlay overlay 218.0 GiB): request=24 time=617.1 us
+4 KiB <<< /root (overlay overlay 218.0 GiB): request=25 time=1.28 ms
+4 KiB <<< /root (overlay overlay 218.0 GiB): request=26 time=1.27 ms
+4 KiB <<< /root (overlay overlay 218.0 GiB): request=27 time=1.30 ms
+4 KiB <<< /root (overlay overlay 218.0 GiB): request=28 time=1.17 ms
+4 KiB <<< /root (overlay overlay 218.0 GiB): request=29 time=721.7 us
+4 KiB <<< /root (overlay overlay 218.0 GiB): request=30 time=1.17 ms
+
+--- /root (overlay overlay 218.0 GiB) ioping statistics ---
+29 requests completed in 33.6 ms, 116 KiB read, 861 iops, 3.37 MiB/s
+generated 30 requests in 29.0 s, 120 KiB, 1 iops, 4.14 KiB/s
+min/avg/max/mdev = 617.1 us / 1.16 ms / 1.31 ms / 217.3 us
