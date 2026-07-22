@@ -1,0 +1,5 @@
+
+--- /root (ext4 /dev/sda2 54.8 GiB) ioping statistics ---
+19.5 k requests completed in 2.99 s, 76.3 MiB read, 6.54 k iops, 25.6 MiB/s
+generated 19.5 k requests in 3.00 s, 76.3 MiB, 6.51 k iops, 25.4 MiB/s
+min/avg/max/mdev = 89.9 us / 152.8 us / 5.07 ms / 64.8 us

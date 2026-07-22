@@ -18,3 +18,5 @@ DATA_VALIDATION_REPORT.md
 !/Zavrsni.odt
 # Research plan (not published)
 plan.txt
+*.pdf
+*.docx

@@ -1,0 +1,22 @@
+You have chosen to measure elapsed time instead of user CPU time.
+Doing 2048 bits private rsa sign ops for 3s: 5736 2048 bits private RSA sign ops in 3.00s
+Doing 2048 bits public rsa verify ops for 3s: 127430 2048 bits public RSA verify ops in 3.00s
+Doing 2048 bits public rsa encrypt ops for 3s: 119611 2048 bits public RSA encrypt ops in 3.00s
+Doing 2048 bits private rsa decrypt ops for 3s: 5582 2048 bits private RSA decrypt ops in 3.00s
+Doing rsa2048 keygen ops for 3s: 64 rsa2048 KEM keygen ops in 3.05s
+Doing rsa2048 encaps ops for 3s: 115432 rsa2048 KEM encaps ops in 3.00s
+Doing rsa2048 decaps ops for 3s: 5727 rsa2048 KEM decaps ops in 3.00s
+Doing rsa2048 keygen ops for 3s: 69 rsa2048 signature keygen ops in 3.09s
+Doing rsa2048 signs ops for 3s: 5743 rsa2048 signature sign ops in 3.00s
+Doing rsa2048 verify ops for 3s: 127980 rsa2048 signature verify ops in 3.00s
+version: 3.5.6
+built on: Sat Jun  6 19:55:35 2026 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -Wa,--noexecstack -g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/build/reproducible-path/openssl-3.5.6=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DZLIB -DZSTD -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2
+CPUINFO: OPENSSL_ia32cap=0xfeda32035f8bffff:0x00000000000027a9:0x00000000bc000400:0x0000000000000000:0x0000000000000000
+                   sign    verify    encrypt   decrypt   sign/s verify/s  encr./s  decr./s
+rsa  2048 bits 0.000523s 0.000024s 0.000025s 0.000537s   1912.0  42476.7  39870.3   1860.7
+                               keygen    encaps    decaps keygens/s  encaps/s  decaps/s
+                    rsa2048 0.047656s 0.000026s 0.000524s      21.0   38477.3    1909.0
+                               keygen     signs    verify keygens/s    sign/s  verify/s
+                    rsa2048 0.044783s 0.000522s 0.000023s      22.3    1914.3   42660.0

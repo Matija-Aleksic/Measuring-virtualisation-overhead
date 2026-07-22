@@ -1,0 +1,22 @@
+You have chosen to measure elapsed time instead of user CPU time.
+Doing 2048 bits private rsa sign ops for 1s: 1834 2048 bits private RSA sign ops in 1.00s
+Doing 2048 bits public rsa verify ops for 1s: 41686 2048 bits public RSA verify ops in 1.00s
+Doing 2048 bits public rsa encrypt ops for 1s: 35850 2048 bits public RSA encrypt ops in 1.00s
+Doing 2048 bits private rsa decrypt ops for 1s: 1709 2048 bits private RSA decrypt ops in 1.00s
+Doing rsa2048 keygen ops for 1s: 21 rsa2048 KEM keygen ops in 1.03s
+Doing rsa2048 encaps ops for 1s: 32593 rsa2048 KEM encaps ops in 1.00s
+Doing rsa2048 decaps ops for 1s: 1743 rsa2048 KEM decaps ops in 1.00s
+Doing rsa2048 keygen ops for 1s: 25 rsa2048 signature keygen ops in 1.02s
+Doing rsa2048 signs ops for 1s: 1754 rsa2048 signature sign ops in 1.00s
+Doing rsa2048 verify ops for 1s: 41642 rsa2048 signature verify ops in 1.00s
+version: 3.5.6
+built on: Sat Jun  6 19:55:35 2026 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -Wa,--noexecstack -g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/build/reproducible-path/openssl-3.5.6=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DZLIB -DZSTD -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2
+CPUINFO: OPENSSL_ia32cap=0xfedab2235f8bffff:0x00000000000027a9:0x00000000bc000400:0x0000000000000000:0x0000000000000000
+                   sign    verify    encrypt   decrypt   sign/s verify/s  encr./s  decr./s
+rsa  2048 bits 0.000545s 0.000024s 0.000028s 0.000585s   1834.0  41686.0  35850.0   1709.0
+                               keygen    encaps    decaps keygens/s  encaps/s  decaps/s
+                    rsa2048 0.049048s 0.000031s 0.000574s      20.4   32593.0    1743.0
+                               keygen     signs    verify keygens/s    sign/s  verify/s
+                    rsa2048 0.040800s 0.000570s 0.000024s      24.5    1754.0   41642.0

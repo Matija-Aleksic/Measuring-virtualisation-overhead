@@ -1,0 +1,22 @@
+You have chosen to measure elapsed time instead of user CPU time.
+Doing 2048 bits private rsa sign ops for 3s: 5699 2048 bits private RSA sign ops in 3.00s
+Doing 2048 bits public rsa verify ops for 3s: 125080 2048 bits public RSA verify ops in 3.00s
+Doing 2048 bits public rsa encrypt ops for 3s: 117587 2048 bits public RSA encrypt ops in 3.00s
+Doing 2048 bits private rsa decrypt ops for 3s: 5553 2048 bits private RSA decrypt ops in 3.00s
+Doing rsa2048 keygen ops for 3s: 70 rsa2048 KEM keygen ops in 3.04s
+Doing rsa2048 encaps ops for 3s: 115216 rsa2048 KEM encaps ops in 3.00s
+Doing rsa2048 decaps ops for 3s: 5620 rsa2048 KEM decaps ops in 3.00s
+Doing rsa2048 keygen ops for 3s: 65 rsa2048 signature keygen ops in 3.00s
+Doing rsa2048 signs ops for 3s: 5706 rsa2048 signature sign ops in 3.00s
+Doing rsa2048 verify ops for 3s: 126155 rsa2048 signature verify ops in 3.00s
+version: 3.5.6
+built on: Sat Jun  6 19:55:35 2026 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -Wa,--noexecstack -g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/build/reproducible-path/openssl-3.5.6=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DZLIB -DZSTD -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2
+CPUINFO: OPENSSL_ia32cap=0xfedab2235f8bffff:0x00000000000027a9:0x00000000bc000400:0x0000000000000000:0x0000000000000000
+                   sign    verify    encrypt   decrypt   sign/s verify/s  encr./s  decr./s
+rsa  2048 bits 0.000526s 0.000024s 0.000026s 0.000540s   1899.7  41693.3  39195.7   1851.0
+                               keygen    encaps    decaps keygens/s  encaps/s  decaps/s
+                    rsa2048 0.043429s 0.000026s 0.000534s      23.0   38405.3    1873.3
+                               keygen     signs    verify keygens/s    sign/s  verify/s
+                    rsa2048 0.046154s 0.000526s 0.000024s      21.7    1902.0   42051.7

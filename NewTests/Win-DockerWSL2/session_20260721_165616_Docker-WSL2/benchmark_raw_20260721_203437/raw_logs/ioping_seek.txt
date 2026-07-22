@@ -1,0 +1,5 @@
+
+--- /root (overlay overlay 1006.9 GiB) ioping statistics ---
+21.0 k requests completed in 2.98 s, 81.9 MiB read, 7.04 k iops, 27.5 MiB/s
+generated 21.0 k requests in 3.00 s, 81.9 MiB, 6.99 k iops, 27.3 MiB/s
+min/avg/max/mdev = 77.8 us / 142.0 us / 1.43 ms / 19.3 us
