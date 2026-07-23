@@ -1,0 +1,35 @@
+4 KiB <<< /home/bench (ext4 /dev/sda1 39.2 GiB): request=1 time=310.1 us (warmup)
+4 KiB <<< /home/bench (ext4 /dev/sda1 39.2 GiB): request=2 time=483.6 us
+4 KiB <<< /home/bench (ext4 /dev/sda1 39.2 GiB): request=3 time=453.2 us
+4 KiB <<< /home/bench (ext4 /dev/sda1 39.2 GiB): request=4 time=394.7 us
+4 KiB <<< /home/bench (ext4 /dev/sda1 39.2 GiB): request=5 time=511.8 us
+4 KiB <<< /home/bench (ext4 /dev/sda1 39.2 GiB): request=6 time=385.2 us
+4 KiB <<< /home/bench (ext4 /dev/sda1 39.2 GiB): request=7 time=452.7 us
+4 KiB <<< /home/bench (ext4 /dev/sda1 39.2 GiB): request=8 time=394.7 us
+4 KiB <<< /home/bench (ext4 /dev/sda1 39.2 GiB): request=9 time=436.0 us
+4 KiB <<< /home/bench (ext4 /dev/sda1 39.2 GiB): request=10 time=393.2 us
+4 KiB <<< /home/bench (ext4 /dev/sda1 39.2 GiB): request=11 time=449.5 us
+4 KiB <<< /home/bench (ext4 /dev/sda1 39.2 GiB): request=12 time=391.6 us
+4 KiB <<< /home/bench (ext4 /dev/sda1 39.2 GiB): request=13 time=426.8 us
+4 KiB <<< /home/bench (ext4 /dev/sda1 39.2 GiB): request=14 time=438.6 us
+4 KiB <<< /home/bench (ext4 /dev/sda1 39.2 GiB): request=15 time=354.6 us
+4 KiB <<< /home/bench (ext4 /dev/sda1 39.2 GiB): request=16 time=397.2 us
+4 KiB <<< /home/bench (ext4 /dev/sda1 39.2 GiB): request=17 time=453.1 us
+4 KiB <<< /home/bench (ext4 /dev/sda1 39.2 GiB): request=18 time=422.5 us
+4 KiB <<< /home/bench (ext4 /dev/sda1 39.2 GiB): request=19 time=348.4 us
+4 KiB <<< /home/bench (ext4 /dev/sda1 39.2 GiB): request=20 time=391.5 us
+4 KiB <<< /home/bench (ext4 /dev/sda1 39.2 GiB): request=21 time=280.6 us
+4 KiB <<< /home/bench (ext4 /dev/sda1 39.2 GiB): request=22 time=368.2 us
+4 KiB <<< /home/bench (ext4 /dev/sda1 39.2 GiB): request=23 time=379.8 us
+4 KiB <<< /home/bench (ext4 /dev/sda1 39.2 GiB): request=24 time=508.5 us
+4 KiB <<< /home/bench (ext4 /dev/sda1 39.2 GiB): request=25 time=505.0 us
+4 KiB <<< /home/bench (ext4 /dev/sda1 39.2 GiB): request=26 time=544.3 us
+4 KiB <<< /home/bench (ext4 /dev/sda1 39.2 GiB): request=27 time=518.0 us
+4 KiB <<< /home/bench (ext4 /dev/sda1 39.2 GiB): request=28 time=510.0 us
+4 KiB <<< /home/bench (ext4 /dev/sda1 39.2 GiB): request=29 time=473.5 us
+4 KiB <<< /home/bench (ext4 /dev/sda1 39.2 GiB): request=30 time=450.2 us
+
+--- /home/bench (ext4 /dev/sda1 39.2 GiB) ioping statistics ---
+29 requests completed in 12.5 ms, 116 KiB read, 2.32 k iops, 9.05 MiB/s
+generated 30 requests in 29.0 s, 120 KiB, 1 iops, 4.14 KiB/s
+min/avg/max/mdev = 280.6 us / 431.6 us / 544.3 us / 59.8 us

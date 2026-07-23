@@ -1,0 +1,16 @@
+#cloud-config
+hostname: qemu-bench
+manage_etc_hosts: true
+ssh_pwauth: false
+users:
+  - name: bench
+    groups: [sudo]
+    sudo: "ALL=(ALL) NOPASSWD:ALL"
+    shell: /bin/bash
+    ssh_authorized_keys:
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC3M15vi+ZS3Mdr3avsbgdLbxP6gUjnPofBm/HdsVzX9 qemu-bench-guest
+# grow rootfs to full disk (cloud-init default, explicit here for clarity)
+growpart:
+  mode: auto
+  devices: ["/"]
+resize_rootfs: true

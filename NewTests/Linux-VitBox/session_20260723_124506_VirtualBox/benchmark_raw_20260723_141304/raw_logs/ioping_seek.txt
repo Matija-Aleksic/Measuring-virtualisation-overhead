@@ -1,0 +1,5 @@
+
+--- /home/bench (ext4 /dev/sda1 39.2 GiB) ioping statistics ---
+7.01 k requests completed in 2.97 s, 27.4 MiB read, 2.36 k iops, 9.21 MiB/s
+generated 7.01 k requests in 3.00 s, 27.4 MiB, 2.34 k iops, 9.13 MiB/s
+min/avg/max/mdev = 41.3 us / 424.3 us / 1.38 ms / 255.5 us
