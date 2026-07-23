@@ -1,0 +1,15 @@
+You have chosen to measure elapsed time instead of user CPU time.
+Doing AES-256-GCM ops for 1s on 16 size blocks: 3354988 AES-256-GCM ops in 1.00s
+Doing AES-256-GCM ops for 1s on 64 size blocks: 3216922 AES-256-GCM ops in 1.00s
+Doing AES-256-GCM ops for 1s on 256 size blocks: 2729876 AES-256-GCM ops in 1.00s
+Doing AES-256-GCM ops for 1s on 1024 size blocks: 1573572 AES-256-GCM ops in 1.00s
+Doing AES-256-GCM ops for 1s on 8192 size blocks: 341153 AES-256-GCM ops in 1.00s
+Doing AES-256-GCM ops for 1s on 16384 size blocks: 179999 AES-256-GCM ops in 1.00s
+version: 3.5.6
+built on: Sat Jun  6 19:55:35 2026 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -Wa,--noexecstack -g -O2 -Werror=implicit-function-declaration -ffile-prefix-map=/build/reproducible-path/openssl-3.5.6=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DZLIB -DZSTD -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2
+CPUINFO: OPENSSL_ia32cap=0xfffab2234f8bffff:0x00000004000027ab:0x00000000bc000400:0x0000000000000000:0x0000000000000000
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+AES-256-GCM      53679.81k   205883.01k   698848.26k  1611337.73k  2794725.38k  2949103.62k
