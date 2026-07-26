@@ -1,0 +1,122 @@
+Session: /home/bench/session_20260725_162120_VirtualBox-U24
+Platform=VirtualBox-U24 Host_OS=Ubuntu 24.04 LTS Isolation=VM Iterations=10
+  7za        7-Zip (a) 23.01 (x64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+  openssl    OpenSSL 3.0.13 30 Jan 2024 (Library: OpenSSL 3.0.13 30 Jan 2024)
+  stress_ng  stress-ng, version 0.17.06 (gcc 13.2.0, x86_64 Linux 6.8.0-134-generic)
+  gcc        gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+  sysbench   sysbench 1.0.20
+  python3    Python 3.12.3
+  kernel     Linux 6.8.0-134-generic
+  distro     Ubuntu 24.04.4 LTS
+
+== Iteration 1/10 (warmup=true) -> benchmark_raw_20260725_162120 ==
+  RUN   sysbench_cpu_single
+  RUN   sysbench_cpu_multi
+  RUN   stress_ng_cpu
+  RUN   stress_ng_switch
+  RUN   7zip
+  RUN   openssl_aes
+  RUN   openssl_rsa
+  RUN   fractal
+  iteration 1 done: ok=9 fail=0 skip=0
+
+== Iteration 2/10 (warmup=false) -> benchmark_raw_20260725_163924 ==
+  RUN   sysbench_cpu_single
+  RUN   sysbench_cpu_multi
+  RUN   stress_ng_cpu
+  RUN   stress_ng_switch
+  RUN   7zip
+  RUN   openssl_aes
+  RUN   openssl_rsa
+  RUN   fractal
+  iteration 2 done: ok=9 fail=0 skip=0
+
+== Iteration 3/10 (warmup=false) -> benchmark_raw_20260725_165726 ==
+  RUN   sysbench_cpu_single
+  RUN   sysbench_cpu_multi
+  RUN   stress_ng_cpu
+  RUN   stress_ng_switch
+  RUN   7zip
+  RUN   openssl_aes
+  RUN   openssl_rsa
+  RUN   fractal
+  iteration 3 done: ok=9 fail=0 skip=0
+
+== Iteration 4/10 (warmup=false) -> benchmark_raw_20260725_171531 ==
+  RUN   sysbench_cpu_single
+  RUN   sysbench_cpu_multi
+  RUN   stress_ng_cpu
+  RUN   stress_ng_switch
+  RUN   7zip
+  RUN   openssl_aes
+  RUN   openssl_rsa
+  RUN   fractal
+  iteration 4 done: ok=9 fail=0 skip=0
+
+== Iteration 5/10 (warmup=false) -> benchmark_raw_20260725_173346 ==
+  RUN   sysbench_cpu_single
+  RUN   sysbench_cpu_multi
+  RUN   stress_ng_cpu
+  RUN   stress_ng_switch
+  RUN   7zip
+  RUN   openssl_aes
+  RUN   openssl_rsa
+  RUN   fractal
+  iteration 5 done: ok=9 fail=0 skip=0
+
+== Iteration 6/10 (warmup=false) -> benchmark_raw_20260725_175157 ==
+  RUN   sysbench_cpu_single
+  RUN   sysbench_cpu_multi
+  RUN   stress_ng_cpu
+  RUN   stress_ng_switch
+  RUN   7zip
+  RUN   openssl_aes
+  RUN   openssl_rsa
+  RUN   fractal
+  iteration 6 done: ok=9 fail=0 skip=0
+
+== Iteration 7/10 (warmup=false) -> benchmark_raw_20260725_181006 ==
+  RUN   sysbench_cpu_single
+  RUN   sysbench_cpu_multi
+  RUN   stress_ng_cpu
+  RUN   stress_ng_switch
+  RUN   7zip
+  RUN   openssl_aes
+  RUN   openssl_rsa
+  RUN   fractal
+  iteration 7 done: ok=9 fail=0 skip=0
+
+== Iteration 8/10 (warmup=false) -> benchmark_raw_20260725_182803 ==
+  RUN   sysbench_cpu_single
+  RUN   sysbench_cpu_multi
+  RUN   stress_ng_cpu
+  RUN   stress_ng_switch
+  RUN   7zip
+  RUN   openssl_aes
+  RUN   openssl_rsa
+  RUN   fractal
+  iteration 8 done: ok=9 fail=0 skip=0
+
+== Iteration 9/10 (warmup=false) -> benchmark_raw_20260725_184616 ==
+  RUN   sysbench_cpu_single
+  RUN   sysbench_cpu_multi
+  RUN   stress_ng_cpu
+  RUN   stress_ng_switch
+  RUN   7zip
+  RUN   openssl_aes
+  RUN   openssl_rsa
+  RUN   fractal
+  iteration 9 done: ok=9 fail=0 skip=0
+
+== Iteration 10/10 (warmup=false) -> benchmark_raw_20260725_190420 ==
+  RUN   sysbench_cpu_single
+  RUN   sysbench_cpu_multi
+  RUN   stress_ng_cpu
+  RUN   stress_ng_switch
+  RUN   7zip
+  RUN   openssl_aes
+  RUN   openssl_rsa
+  RUN   fractal
+  iteration 10 done: ok=9 fail=0 skip=0
+
+All 10 iteration(s) under: /home/bench/session_20260725_162120_VirtualBox-U24

@@ -20,3 +20,9 @@ DATA_VALIDATION_REPORT.md
 plan.txt
 *.pdf
 *.docx
+.idea/
+archive/
+v4-pipeline/
+rerun_u24.sh
+figs/
+thesis_tables/

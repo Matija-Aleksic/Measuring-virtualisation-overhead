@@ -1,0 +1,27 @@
+
+7-Zip (a) 23.01 (x64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit locale=C.UTF-8 Threads:4 OPEN_MAX:1024
+
+ mt=4
+Compiler: 13.2.0 GCC 13.2.0: SSE2
+Linux : 6.8.0-134-generic : #134-Ubuntu SMP PREEMPT_DYNAMIC Fri Jun 26 18:43:11 UTC 2026 : x86_64 : KVMKVMKVM : [89]
+PageSize:4KB THP:madvise hwcap:2 hwcap2:2
+Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz (306C3) 
+
+1T CPU Freq (MHz):  3813  3889  3900  3876  3899  3899  3900
+2T CPU Freq (MHz): 200% 3859   200% 3895  
+
+RAM size:   15993 MB,  # CPU hardware threads:   4
+RAM usage:    889 MB,  # Benchmark threads:      4
+
+                       Compressing  |                  Decompressing
+Dict     Speed Usage    R/U Rating  |      Speed Usage    R/U Rating
+         KiB/s     %   MIPS   MIPS  |      KiB/s     %   MIPS   MIPS
+
+22:      21008   356   5740  20437  |     189381   398   4061  16157
+23:      20514   369   5665  20902  |     185554   397   4041  16056
+24:      19479   369   5677  20944  |     182110   398   4020  15982
+25:      19228   371   5913  21954  |     178130   398   3981  15853
+----------------------------------  | ------------------------------
+Avr:     20057   366   5749  21059  |     183794   398   4026  16012
+Tot:             382   4887  18536

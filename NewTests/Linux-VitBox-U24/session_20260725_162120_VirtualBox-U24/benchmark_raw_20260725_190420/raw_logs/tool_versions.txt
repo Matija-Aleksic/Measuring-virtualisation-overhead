@@ -1,0 +1,8 @@
+7za=7-Zip (a) 23.01 (x64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+openssl=OpenSSL 3.0.13 30 Jan 2024 (Library: OpenSSL 3.0.13 30 Jan 2024)
+stress_ng=stress-ng, version 0.17.06 (gcc 13.2.0, x86_64 Linux 6.8.0-134-generic)
+gcc=gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+sysbench=sysbench 1.0.20
+python3=Python 3.12.3
+kernel=Linux 6.8.0-134-generic
+distro=Ubuntu 24.04.4 LTS
