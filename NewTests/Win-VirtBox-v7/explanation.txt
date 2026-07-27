@@ -1,0 +1,20 @@
+This is the v7 topology re-run (2026-07-26/27) of Windows-VirtBox, not a
+replacement. Unlike WSL2/Docker/Hyper-V, VirtualBox was not topology-confounded
+in v5 (it already saw 4 real cores) — this re-run exists because plan.txt
+§4.2 requires VMware/VirtualBox to run as native Type-2 hypervisors
+(Windows hypervisor OFF), and the whole v7 round's host state (BIOS
+Hyper-Threading disabled) needed re-verifying under that native mode too.
+
+Sequence: host rebooted with `bcdedit /set hypervisorlaunchtype off` +
+VirtualMachinePlatform disabled after Group B (WSL2/Docker/Hyper-V) finished,
+confirmed HypervisorPresent=False, then this guest's preflight came back
+clean (width 3.82x, single ~1132 — resolving the ~8% single-thread penalty
+briefly measured earlier while VirtualBox shared the box with Hyper-V's
+Windows Hypervisor Platform).
+
+Result vs the Win-WSL2-v7 baseline: -0.01% CPU multi-thread, +0.72%
+single-thread — both essentially noise. Full 10 iterations, all
+RUN_COMPLETE ok=10 fail=0. Platform identity is "VirtualBox-v7" in meta.env,
+kept distinct from v5's "VirtualBox" rows (different host BIOS/HT state).
+
+See CLAUDE.md and WINDOWS_RERUN.md for the full v7 round plan.

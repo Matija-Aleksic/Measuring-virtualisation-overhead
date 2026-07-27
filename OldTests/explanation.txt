@@ -1,0 +1,28 @@
+OldTests/ — the v4 (legacy) dataset, April-July round.
+
+Superseded by the v5 suite (benchmark.sh) whose data lives in NewTests/.
+Do not extend or re-run anything here; kept only for provenance. See
+CLAUDE.md ("Legacy: v4 benchmark scripts") and archive/README.md for why.
+
+Folder names are inconsistent/typo'd on purpose (e.g. "Quemu", "VitBox") —
+they're used as-is throughout the old pipeline, don't fix them.
+
+What's here, one line each:
+  Linux-BareMetal            bare metal, Ubuntu, default core count
+  Linux-BareMetal-4core      bare metal, Ubuntu, pinned to 4 cores
+  Linux-BareMetal-8Core      bare metal, Ubuntu, pinned to 8 cores
+  Linux-Docker               Docker, Ubuntu host
+  Linux-LXC                  LXC/LXD, Ubuntu host
+  Linux-Quemu                QEMU/KVM, Ubuntu host
+  Linux-VitBox               VirtualBox, Ubuntu host
+  Linux-VMware               VMware Workstation, Ubuntu host
+  Linux-extracted            compiled per-platform CSVs for the above (v4 extractor output)
+  Win-Vmware                 VMware Workstation, Windows host
+  Win-wsl4core                WSL2, Windows host, pinned to 4 cores
+  Windows-Docker             Docker Desktop (WSL2 backend), Windows host
+  Windows-VirtBox            VirtualBox, Windows host
+
+Each platform folder holds many benchmark_raw_<timestamp>/raw_logs/ runs
+(one per iteration) plus a per-platform aggregated CSV once the v4 extractor
+(archive/v4-pipeline/extract.py) has been run. No meta.env/MANIFEST.tsv/
+RUN_COMPLETE here — that bookkeeping was added in v5, see NewTests/ instead.

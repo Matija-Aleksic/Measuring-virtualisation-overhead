@@ -1,0 +1,18 @@
+This is the v7 topology re-run (2026-07-26) of Win-HyperV, not a replacement.
+
+Why it exists: this was the worst-confounded platform in v5 — the Hyper-V
+guest was handed 2 physical cores + 2 SMT threads each (4 vCPUs total, but
+only 2 real cores), the most distorted topology of any platform in the
+Windows round. Fixed the same way as WSL2/Docker: host BIOS Hyper-Threading
+disabled (host now 4c/4t), guest VM recreated with
+Set-VMProcessor -HwThreadCountPerCore 1 so it now genuinely gets 4 distinct
+physical cores.
+
+Result: sysbench CPU overhead vs the Win-WSL2-v7 baseline came out at -0.28%
+(multi) / -0.29% (single) — essentially zero, both within measurement noise
+(CV 0.04-0.12%). This is the headline finding of the whole v7 round: Hyper-V's
+real CPU cost relative to WSL2 is negligible once the topology confound is
+removed. Full 10 iterations, all RUN_COMPLETE ok=10 fail=0. Platform identity
+is "Hyper-V-v7" in meta.env, kept distinct from v5's confounded "Hyper-V" rows.
+
+See CLAUDE.md and WINDOWS_RERUN.md for the full v7 round plan.

@@ -1,0 +1,67 @@
+pinned_cpus=0,1,2,3
+pinned_logical_cpus=4
+pinned_physical_cores=4
+thread_siblings=cpu0=[0]; cpu1=[1]; cpu2=[2]; cpu3=[3]
+smt_active=0
+smt_control=notsupported
+lscpu_cpus=4
+lscpu_threads_per_core=1
+lscpu_cores_per_socket=4
+lscpu_sockets=1
+lscpu_model=Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz
+lscpu_hypervisor=Microsoft
+spectre_v2=Mitigation; Retpolines; IBPB conditional; IBRS_FW; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI Retpoline
+nproc_all=4
+affinity_self=pid 1414's current affinity list: 0-3
+userspace_vs_v5=OK
+
+Architecture:                            x86_64
+CPU op-mode(s):                          32-bit, 64-bit
+Address sizes:                           39 bits physical, 48 bits virtual
+Byte Order:                              Little Endian
+CPU(s):                                  4
+On-line CPU(s) list:                     0-3
+Vendor ID:                               GenuineIntel
+Model name:                              Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz
+CPU family:                              6
+Model:                                   60
+Thread(s) per core:                      1
+Core(s) per socket:                      4
+Socket(s):                               1
+Stepping:                                3
+CPU(s) scaling MHz:                      102%
+CPU max MHz:                             3600.0000
+CPU min MHz:                             800.0000
+BogoMIPS:                                7183.37
+Flags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology cpuid aperfmperf tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm pti ssbd ibrs ibpb stibp fsgsbase bmi1 avx2 smep bmi2 erms invpcid xsaveopt md_clear flush_l1d arch_capabilities
+Hypervisor vendor:                       Microsoft
+Virtualization type:                     full
+L1d cache:                               128 KiB (4 instances)
+L1i cache:                               128 KiB (4 instances)
+L2 cache:                                1 MiB (4 instances)
+L3 cache:                                8 MiB (1 instance)
+NUMA node(s):                            1
+NUMA node0 CPU(s):                       0-3
+Vulnerability Gather data sampling:      Not affected
+Vulnerability Indirect target selection: Mitigation; Aligned branch/return thunks
+Vulnerability Itlb multihit:             KVM: Mitigation: VMX unsupported
+Vulnerability L1tf:                      Mitigation; PTE Inversion
+Vulnerability Mds:                       Mitigation; Clear CPU buffers; SMT Host state unknown
+Vulnerability Meltdown:                  Mitigation; PTI
+Vulnerability Mmio stale data:           Unknown: No mitigations
+Vulnerability Reg file data sampling:    Not affected
+Vulnerability Retbleed:                  Not affected
+Vulnerability Spec rstack overflow:      Not affected
+Vulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:                Mitigation; Retpolines; IBPB conditional; IBRS_FW; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI Retpoline
+Vulnerability Srbds:                     Unknown: Dependent on hypervisor status
+Vulnerability Tsa:                       Not affected
+Vulnerability Tsx async abort:           Not affected
+Vulnerability Vmscape:                   Not affected
+
+CPU NODE SOCKET CORE L1d:L1i:L2:L3 ONLINE    MAXMHZ   MINMHZ       MHZ
+  0    0      0    0 0:0:0:0          yes 3600.0000 800.0000 3652.0320
+  1    0      0    1 1:1:1:0          yes 3600.0000 800.0000 3612.5911
+  2    0      0    2 2:2:2:0          yes 3600.0000 800.0000 3690.9580
+  3    0      0    3 3:3:3:0          yes 3600.0000 800.0000 3707.9910

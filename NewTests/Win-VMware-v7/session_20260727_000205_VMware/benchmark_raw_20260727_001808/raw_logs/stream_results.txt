@@ -1,0 +1,4 @@
+Copy:  21850.7 MB/s
+Scale: 13678.8 MB/s
+Add:   15249.8 MB/s
+Triad: 15136.2 MB/s

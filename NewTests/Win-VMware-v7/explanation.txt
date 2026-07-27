@@ -1,0 +1,26 @@
+This is the v7 topology re-run (2026-07-27) of Win-VmWare, not a replacement,
+and it closes the v7 round — all five Windows platforms are now re-measured
+under the corrected topology.
+
+Like VirtualBox, VMware was not topology-confounded in v5 (already 4 real
+cores) — this re-run exists because plan.txt §4.2 requires VMware/VirtualBox
+to run as native Type-2 hypervisors (Windows hypervisor OFF), and the whole
+v7 round's host state (BIOS Hyper-Threading disabled) needed re-verifying
+under that native mode. Guest booted in native mode via a Windows Scheduled
+Task rather than a direct SSH-launched `vmrun start` — Windows OpenSSH ties
+spawned processes to the session's job object, so `vmware-vmx.exe` was killed
+the moment the launching SSH command returned; a Scheduled Task action runs
+outside that job object and survives.
+
+Preflight came back clean: width 3.85x, single ~1115 (its own slightly lower
+absolute single-thread number vs the other four platforms is a real,
+repeatable ~1.7% difference, not noise — CV 0.04%).
+
+Result vs the Win-WSL2-v7 baseline: +0.67% CPU multi-thread, +1.67%
+single-thread — small and sensible, the largest of the five re-run
+platforms but still under 2%. Full 10 iterations, all RUN_COMPLETE ok=10
+fail=0. Platform identity is "VMware-v7" in meta.env, kept distinct from
+v5's "VMware" rows (different host BIOS/HT state).
+
+See CLAUDE.md and WINDOWS_RERUN.md for the full v7 round plan and the other
+four platforms' explanation.txt for the matching detail on each.

@@ -1,0 +1,19 @@
+This is the v7 topology re-run (2026-07-26) of Win-WSL2, not a replacement.
+It is the new Windows-host baseline going forward.
+
+Why it exists: v5's WSL2 was handed 2 physical cores + their SMT siblings
+(not 4 real cores), a topology confound that made every multi-threaded
+result across the whole Windows round unusable — Hyper-V had the same
+problem, VMware/VirtualBox did not. Fixed by disabling Hyper-Threading in
+the host BIOS (host is now 4 cores / 4 threads) and re-running.
+
+Evidence it worked: the single-threaded control (topology-invariant) held
+at ~1135 events/s in both v5 and this re-run, while the multi-threaded
+number and the parallel-width ratio moved — the signature that only
+topology changed. Full 10 iterations, all tests, all RUN_COMPLETE ok=10
+fail=0. Platform identity is "WSL2-v7" in meta.env (not "WSL2") specifically
+so compile_results.py never averages this together with the confounded v5
+rows under one platform.
+
+See CLAUDE.md and WINDOWS_RERUN.md for the full v7 round plan (Win-WSL2-v7,
+Win-DockerWSL2-v7, Win-HyperV-v7, Win-VMware-v7, Win-VirtBox-v7).

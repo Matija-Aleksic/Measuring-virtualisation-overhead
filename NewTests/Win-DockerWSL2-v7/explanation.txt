@@ -1,0 +1,17 @@
+This is the v7 topology re-run (2026-07-26) of Win-DockerWSL2, not a
+replacement.
+
+Why it exists: same fix as Win-WSL2-v7 — v5's WSL2 VM (which Docker Desktop
+shares) was handed 2 physical cores + SMT siblings instead of 4 real cores.
+Host BIOS Hyper-Threading disabled, re-run on the corrected topology.
+Container flags are identical to v5 (--cpuset-cpus="0-3" --cpus="4"
+--memory="16g", debian:trixie) — only the host topology changed, deliberately
+not "fixed" further.
+
+Overhead vs the Win-WSL2-v7 baseline: +0.19% CPU multi-thread, ~0 (noise) on
+single-thread — matches the ~0.1-0.2% Docker cpuset/quota cost already found
+on the Linux round. Full 10 iterations, all RUN_COMPLETE ok=10 fail=0.
+Platform identity is "Docker-WSL2-v7" in meta.env, kept distinct from v5's
+"Docker-WSL2" so the compiler never mixes the two topologies together.
+
+See CLAUDE.md and WINDOWS_RERUN.md for the full v7 round plan.
