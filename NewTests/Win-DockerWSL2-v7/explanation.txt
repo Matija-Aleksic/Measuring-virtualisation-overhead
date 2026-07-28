@@ -14,4 +14,4 @@ on the Linux round. Full 10 iterations, all RUN_COMPLETE ok=10 fail=0.
 Platform identity is "Docker-WSL2-v7" in meta.env, kept distinct from v5's
 "Docker-WSL2" so the compiler never mixes the two topologies together.
 
-See CLAUDE.md and WINDOWS_RERUN.md for the full v7 round plan.
+See PROJECT_NOTES.md and WINDOWS_RERUN.md for the full v7 round plan.

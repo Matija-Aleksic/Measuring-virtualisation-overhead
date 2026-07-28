@@ -15,4 +15,4 @@ real CPU cost relative to WSL2 is negligible once the topology confound is
 removed. Full 10 iterations, all RUN_COMPLETE ok=10 fail=0. Platform identity
 is "Hyper-V-v7" in meta.env, kept distinct from v5's confounded "Hyper-V" rows.
 
-See CLAUDE.md and WINDOWS_RERUN.md for the full v7 round plan.
+See PROJECT_NOTES.md and WINDOWS_RERUN.md for the full v7 round plan.

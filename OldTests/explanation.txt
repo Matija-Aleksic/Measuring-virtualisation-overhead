@@ -2,7 +2,7 @@ OldTests/ — the v4 (legacy) dataset, April-July round.
 
 Superseded by the v5 suite (benchmark.sh) whose data lives in NewTests/.
 Do not extend or re-run anything here; kept only for provenance. See
-CLAUDE.md ("Legacy: v4 benchmark scripts") and archive/README.md for why.
+PROJECT_NOTES.md ("Legacy: v4 benchmark scripts") and archive/README.md for why.
 
 Folder names are inconsistent/typo'd on purpose (e.g. "Quemu", "VitBox") —
 they're used as-is throughout the old pipeline, don't fix them.

@@ -17,4 +17,4 @@ single-thread — both essentially noise. Full 10 iterations, all
 RUN_COMPLETE ok=10 fail=0. Platform identity is "VirtualBox-v7" in meta.env,
 kept distinct from v5's "VirtualBox" rows (different host BIOS/HT state).
 
-See CLAUDE.md and WINDOWS_RERUN.md for the full v7 round plan.
+See PROJECT_NOTES.md and WINDOWS_RERUN.md for the full v7 round plan.

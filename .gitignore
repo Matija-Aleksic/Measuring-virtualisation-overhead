@@ -13,7 +13,7 @@ TEST_METHODOLOGY.md
 DATA_VALIDATION_REPORT.md
 **/*.md
 !/README.md
-
+!/Aleksic.docx
 *.odt
 !/Zavrsni.odt
 # Research plan (not published)

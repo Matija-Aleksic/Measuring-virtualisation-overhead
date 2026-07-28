@@ -3,14 +3,14 @@ This is the U24 re-run (2026-07-25) of Linux-VMware, not a replacement for it.
 Why it exists: the original Linux-VMware VM ran a Debian 13 guest whose
 userspace (7-Zip, GCC, OpenSSL) differed in version from the Ubuntu 24.04
 bare-metal baseline, confounding a handful of tests (7zip, openssl, stress_ng,
-kernel_compile, fractal — see CLAUDE.md "Known confound — userspace islands").
+kernel_compile, fractal — see PROJECT_NOTES.md "Known confound — userspace islands").
 This folder re-runs just those tests plus sysbench_cpu (version-invariant
 control) on an Ubuntu 24.04 guest instead, so the guest-image confound is
 removed for this subset.
 
 Only 9 tests here (not the full 23) — fio/network/memory were version-clean
 already and were not re-run; see Linux-VMware/ for those numbers, which still
-stand. Collected with bench.py, not benchmark.sh — see CLAUDE.md
+stand. Collected with bench.py, not benchmark.sh — see PROJECT_NOTES.md
 "bench.py v6.0-reduced" for the full rationale and the sysbench-control result
 (the ~12% CPU overhead in Linux-VMware turned out to be the guest image, not
 the hypervisor).

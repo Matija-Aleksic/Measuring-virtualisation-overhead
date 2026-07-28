@@ -15,5 +15,5 @@ fail=0. Platform identity is "WSL2-v7" in meta.env (not "WSL2") specifically
 so compile_results.py never averages this together with the confounded v5
 rows under one platform.
 
-See CLAUDE.md and WINDOWS_RERUN.md for the full v7 round plan (Win-WSL2-v7,
+See PROJECT_NOTES.md and WINDOWS_RERUN.md for the full v7 round plan (Win-WSL2-v7,
 Win-DockerWSL2-v7, Win-HyperV-v7, Win-VMware-v7, Win-VirtBox-v7).

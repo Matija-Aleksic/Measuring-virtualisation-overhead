@@ -22,5 +22,5 @@ platforms but still under 2%. Full 10 iterations, all RUN_COMPLETE ok=10
 fail=0. Platform identity is "VMware-v7" in meta.env, kept distinct from
 v5's "VMware" rows (different host BIOS/HT state).
 
-See CLAUDE.md and WINDOWS_RERUN.md for the full v7 round plan and the other
+See PROJECT_NOTES.md and WINDOWS_RERUN.md for the full v7 round plan and the other
 four platforms' explanation.txt for the matching detail on each.
